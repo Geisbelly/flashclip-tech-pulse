@@ -1,0 +1,53 @@
+
+[
+  {
+    "id": "go",
+    "nome": "Go (Golang)",
+    "slug": "go",
+    "descricao": "Linguagem de programação concorrente e compilada, desenvolvida pelo Google para sistemas de alta performance",
+    "descricaoLonga": "Go é uma linguagem moderna e concisa que oferece recursos para programação concorrente e eficiente. Ideal para serviços web, apis e programas que necessitam de alto desempenho.",
+    "integrantes": ["Ana Silva", "Bruno Costa", "Carlos Eduardo"],
+    "imagem": "/placeholder.svg",
+    "cor": "#00ADD8"
+  },
+  {
+    "id": "prolog",
+    "nome": "Prolog",
+    "slug": "prolog",
+    "descricao": "Linguagem de programação lógica, usada para inteligência artificial e sistemas especialistas",
+    "descricaoLonga": "Prolog é uma linguagem de programação baseada em lógica, especialmente útil para desenvolvimento de sistemas especialistas, processamento de linguagem natural e problemas de inteligência artificial.",
+    "integrantes": ["Diana Martins", "Eduardo Fonseca", "Fernanda Lopes"],
+    "imagem": "/placeholder.svg",
+    "cor": "#FF5A5F"
+  },
+  {
+    "id": "ruby",
+    "nome": "Ruby",
+    "slug": "ruby",
+    "descricao": "Linguagem dinâmica, orientada a objetos, conhecida por sua simplicidade e produtividade",
+    "descricaoLonga": "Ruby é uma linguagem elegante e expressiva focada na simplicidade e produtividade. É a base do framework Rails, muito usado para desenvolvimento web ágil e construção de aplicações web modernas.",
+    "integrantes": ["Gabriel Santos", "Heloísa Costa", "Igor Pereira"],
+    "imagem": "/placeholder.svg",
+    "cor": "#CC342D"
+  },
+  {
+    "id": "typescript",
+    "nome": "TypeScript",
+    "slug": "typescript",
+    "descricao": "Superset de JavaScript que adiciona tipagem estática ao código JavaScript",
+    "descricaoLonga": "TypeScript é um superconjunto de JavaScript que adiciona tipos estáticos opcionais e recursos de programação orientada a objetos. Facilita o desenvolvimento de aplicações robustas e escaláveis.",
+    "integrantes": ["Julia Marques", "Karina Oliveira", "Lucas Almeida"],
+    "imagem": "/placeholder.svg",
+    "cor": "#3178C6"
+  },
+  {
+    "id": "csharp",
+    "nome": "C#",
+    "slug": "csharp",
+    "descricao": "Linguagem orientada a objetos desenvolvida pela Microsoft, parte da plataforma .NET",
+    "descricaoLonga": "C# é uma linguagem de programação poderosa e versátil para desenvolvimento de aplicativos Windows, jogos com Unity, APIs web e muito mais. É moderna, segura em relação a tipos e orientada a objetos.",
+    "integrantes": ["Marcos Paulo", "Natália Lima", "Otávio Mendes"],
+    "imagem": "/placeholder.svg",
+    "cor": "#9B4F96"
+  }
+]

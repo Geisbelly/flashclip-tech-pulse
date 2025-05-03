@@ -1,0 +1,52 @@
+
+[
+  {
+    "data": "2023-09-15",
+    "horario": "19:00 - 21:00",
+    "titulo": "Abertura do FlashClip",
+    "descricao": "Cerimônia de abertura e apresentação do evento",
+    "local": "Auditório Principal"
+  },
+  {
+    "data": "2023-09-16",
+    "horario": "09:00 - 12:00",
+    "titulo": "Workshop de Go",
+    "descricao": "Introdução à programação concorrente com Go",
+    "local": "Laboratório 1"
+  },
+  {
+    "data": "2023-09-16",
+    "horario": "14:00 - 17:00",
+    "titulo": "Workshop de Prolog",
+    "descricao": "Fundamentos de programação lógica",
+    "local": "Laboratório 2"
+  },
+  {
+    "data": "2023-09-17",
+    "horario": "09:00 - 12:00",
+    "titulo": "Workshop de Ruby",
+    "descricao": "Desenvolvimento ágil com Ruby",
+    "local": "Laboratório 1"
+  },
+  {
+    "data": "2023-09-17",
+    "horario": "14:00 - 17:00",
+    "titulo": "Workshop de TypeScript",
+    "descricao": "Aplicações web modernas com TypeScript",
+    "local": "Laboratório 2"
+  },
+  {
+    "data": "2023-09-18",
+    "horario": "09:00 - 12:00",
+    "titulo": "Workshop de C#",
+    "descricao": "Desenvolvimento .NET com C#",
+    "local": "Laboratório 1"
+  },
+  {
+    "data": "2023-09-18",
+    "horario": "19:00 - 21:00",
+    "titulo": "Encerramento e Networking",
+    "descricao": "Palestra de encerramento e momento de conexão entre participantes",
+    "local": "Auditório Principal"
+  }
+]

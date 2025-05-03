@@ -1,0 +1,38 @@
+
+[
+  {
+    "id": 1,
+    "nome": "TechCorp",
+    "logo": "/placeholder.svg",
+    "site": "https://techcorp.example.com",
+    "instagram": "techcorp_oficial"
+  },
+  {
+    "id": 2,
+    "nome": "DevSolutions",
+    "logo": "/placeholder.svg",
+    "site": "https://devsolutions.example.com",
+    "instagram": "devsolutions"
+  },
+  {
+    "id": 3,
+    "nome": "CodeMasters",
+    "logo": "/placeholder.svg",
+    "site": "https://codemasters.example.com",
+    "instagram": "codemasters_tech"
+  },
+  {
+    "id": 4,
+    "nome": "InnovateTech",
+    "logo": "/placeholder.svg",
+    "site": "https://innovatetech.example.com",
+    "instagram": "innovate_tech"
+  },
+  {
+    "id": 5,
+    "nome": "ByteWorks",
+    "logo": "/placeholder.svg",
+    "site": "https://byteworks.example.com",
+    "instagram": "byteworks"
+  }
+]
