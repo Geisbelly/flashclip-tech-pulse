@@ -12,12 +12,11 @@ interface CourseCardProps {
   imagem: string;
 }
 
-const CourseCard = ({ id, nome, slug, descricao, cor, imagem }: CourseCardProps) => {
+const CourseCard = ({ id, nome, slug, descricao, imagem }: CourseCardProps) => {
   return (
-    <Card className="tech-card overflow-hidden flex flex-col h-full">
+    <Card className="tech-card overflow-hidden flex flex-col h-full dark:bg-gradient-to-br dark:from-gray-800 dark:to-gray-900 dark:border-gray-700">
       <div 
-        className="h-3" 
-        style={{ backgroundColor: cor }}
+        className="h-3 blue-gradient"
       ></div>
       <CardHeader>
         <div className="w-16 h-16 mb-2 rounded-lg overflow-hidden">
@@ -28,13 +27,13 @@ const CourseCard = ({ id, nome, slug, descricao, cor, imagem }: CourseCardProps)
           />
         </div>
         <CardTitle>{nome}</CardTitle>
-        <CardDescription>{descricao}</CardDescription>
+        <CardDescription className="dark:text-gray-300">{descricao}</CardDescription>
       </CardHeader>
       <CardContent className="flex-grow">
         {/* Additional content can be added here */}
       </CardContent>
       <CardFooter>
-        <Button asChild className="w-full" style={{ backgroundColor: cor }}>
+        <Button asChild className="w-full blue-gradient">
           <Link to={`/curso/${slug}`}>Saiba Mais</Link>
         </Button>
       </CardFooter>

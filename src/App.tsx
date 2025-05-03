@@ -13,30 +13,38 @@ import Patrocinadores from "./pages/Patrocinadores";
 import Contato from "./pages/Contato";
 import Inscricao from "./pages/Inscricao";
 import NotFound from "./pages/NotFound";
+import { useEffect } from "react";
 
 const queryClient = new QueryClient();
 
-const App = () => (
-  <QueryClientProvider client={queryClient}>
-    <TooltipProvider>
-      <Toaster />
-      <Sonner />
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Index />} />
-          <Route path="/sobre" element={<Sobre />} />
-          <Route path="/cursos" element={<Cursos />} />
-          <Route path="/curso/:slug" element={<CursoDetalhes />} />
-          <Route path="/cronograma" element={<Cronograma />} />
-          <Route path="/patrocinadores" element={<Patrocinadores />} />
-          <Route path="/contato" element={<Contato />} />
-          <Route path="/inscricao" element={<Inscricao />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </BrowserRouter>
-    </TooltipProvider>
-  </QueryClientProvider>
-);
+const App = () => {
+  // Set dark mode by default
+  useEffect(() => {
+    document.documentElement.classList.add('dark');
+  }, []);
+
+  return (
+    <QueryClientProvider client={queryClient}>
+      <TooltipProvider>
+        <Toaster />
+        <Sonner />
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Index />} />
+            <Route path="/sobre" element={<Sobre />} />
+            <Route path="/cursos" element={<Cursos />} />
+            <Route path="/curso/:slug" element={<CursoDetalhes />} />
+            <Route path="/cronograma" element={<Cronograma />} />
+            <Route path="/patrocinadores" element={<Patrocinadores />} />
+            <Route path="/contato" element={<Contato />} />
+            <Route path="/inscricao" element={<Inscricao />} />
+            {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </BrowserRouter>
+      </TooltipProvider>
+    </QueryClientProvider>
+  );
+};
 
 export default App;

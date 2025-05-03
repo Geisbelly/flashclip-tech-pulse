@@ -90,7 +90,7 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground dark:bg-slate-900 dark:text-gray-100;
   }
   
   .flashclip-gradient {
@@ -100,4 +100,27 @@
   .tech-card {
     @apply bg-card border border-border rounded-lg transition-all hover:shadow-lg hover:-translate-y-1;
   }
+  
+  .dark-gradient {
+    @apply bg-gradient-to-br from-gray-800 to-gray-900;
+  }
+  
+  .blue-gradient {
+    @apply bg-gradient-to-r from-flashclip-blue to-flashclip-blue-dark;
+  }
+  
+  .countdown-item {
+    @apply flex flex-col items-center justify-center bg-gradient-to-br from-flashclip-blue to-flashclip-blue-dark p-4 rounded-lg text-white shadow-lg;
+  }
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
